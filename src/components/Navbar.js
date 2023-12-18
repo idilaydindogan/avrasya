@@ -14,24 +14,30 @@ const Navbar = () => {
 			<div className="md:flex justify-evenly items-center text-white hidden ">
 				<Link href={"/"}>Home</Link>
 				<Link href={"/"}>Sektörler</Link>
-
-				<Link href={"/"}>
-					<Image src={logo} width={400} height={400} />
-				</Link>
+				<div className=" md:h-[200px] ">
+					<Link href={"/"}>
+						<Image
+							src={logo}
+							sizes="100vw"
+							style={{ width: "100%", height: "100%" }}
+						/>
+					</Link>
+				</div>
 				<Link href={"/"}>Teknolojiler</Link>
 				<Link href={"/contact"}>İletişim</Link>
 			</div>
 			<div className="flex justify-between text-white md:hidden">
-				<Link href={"/"}>
-					<Image
-						src={logo}
-						width={300}
-						height={300}
-						className="-left-12 -top-4 absolute"
-					/>
-				</Link>
+				<div className="  h-[150px]">
+					<Link href={"/"}>
+						<Image
+							src={logo}
+							sizes="100vw"
+							style={{ width: "100%", height: "100%" }}
+						/>
+					</Link>
+				</div>
 				{!visiable && (
-					<button className="pt-16 pr-8" onClick={() => setVisible(true)}>
+					<button className=" pr-8" onClick={() => setVisible(true)}>
 						<GiHamburgerMenu size={22} />
 					</button>
 				)}

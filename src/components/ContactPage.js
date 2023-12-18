@@ -15,7 +15,7 @@ function ContactPage() {
 				></iframe>
 			</div>
 			<div>
-				<div className="w-[340px] sm:w-[500px] md:w-[700px] lg:w-full h-full py-8 px-8 -mt-12 bg-white pt-10 text-primary_Navy  flex flex-col items-center  space-y-6">
+				<div className="w-[340px] sm:w-[500px] md:w-[700px] lg:w-full h-full py-8 px-8 -mt-12 bg-white pt-10 text-primary_Navy  flex flex-col items-center  space-y-6 shadow-md">
 					<h3 className="text-3xl font-bold">İletişim</h3>
 					<p className="text-center md:w-2/3">
 						Avrasya Haberleşme Sistemleri Ve Gemi Elektroniği Elektrik Sanayi
