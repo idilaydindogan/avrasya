@@ -20,6 +20,7 @@ module.exports = {
 			secondary_Gray: "#a9abad",
 			bodyNavyshade: "#bbc3ce",
 			footerBody: "#2f4564",
+			white: "#fff",
 		},
 	},
 	plugins: [],
