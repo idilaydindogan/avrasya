@@ -10,7 +10,7 @@ import { RxCross2 } from "react-icons/rx";
 const Navbar = () => {
 	const [visiable, setVisible] = useState(false);
 	return (
-		<nav className="w-full h-48">
+		<nav className="w-full h-60">
 			<div className="md:flex justify-evenly items-center text-white hidden ">
 				<Link href={"/"}>Home</Link>
 				<Link href={"/"}>Sektörler</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
 					<Image src={logo} width={400} height={400} />
 				</Link>
 				<Link href={"/"}>Teknolojiler</Link>
-				<Link href={"/"}>İletişim</Link>
+				<Link href={"/contact"}>İletişim</Link>
 			</div>
 			<div className="flex justify-between text-white md:hidden">
 				<Link href={"/"}>
@@ -48,7 +48,7 @@ const Navbar = () => {
 							<Link href={"/"}>Home</Link>
 							<Link href={"/"}>Sektörler</Link>
 							<Link href={"/"}>Teknolojiler</Link>
-							<Link href={"/"}>İletişim</Link>
+							<Link href={"/contact"}>İletişim</Link>
 						</div>
 					</div>
 				)}

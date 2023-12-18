@@ -6,3 +6,12 @@ body {
 	background-color: #18335c;
 	/* background-color: #324a6d; */
 }
+
+.iframe {
+	left: 0;
+	top: 0;
+	border: 0;
+	height: 50%;
+	width: 90%;
+	position: absolute;
+}

@@ -16,7 +16,7 @@ module.exports = {
 		colors: {
 			primary_Navy: "#1B365D",
 			primary_Gray: "#53565A",
-			secondary_Navy: "#5f728e",
+			secondary_Navy: "#2f4564",
 			secondary_Gray: "#a9abad",
 			bodyNavyshade: "#bbc3ce",
 			footerBody: "#2f4564",
