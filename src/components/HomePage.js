@@ -1,7 +1,8 @@
 import React from "react";
+import SwiperImages from "./SwiperImages";
 
 function HomePage() {
-	return <div></div>;
+	return <SwiperImages />;
 }
 
 export default HomePage;
