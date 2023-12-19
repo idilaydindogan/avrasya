@@ -4,7 +4,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-const montserrat = Montserrat({ weight: "400", subsets: ["latin"] });
+const montserrat = Montserrat({
+	weight: ["400", "600"],
+	style: ["normal"],
+	subsets: ["latin"],
+});
 
 export const metadata = {
 	title: "Create Next App",

@@ -23,7 +23,7 @@ const Navbar = () => {
 						/>
 					</Link>
 				</div>
-				<Link href={"/"}>Teknolojiler</Link>
+				<Link href={"/technologies"}>Teknolojiler</Link>
 				<Link href={"/contact"}>İletişim</Link>
 			</div>
 			<div className="flex justify-between text-white md:hidden">
@@ -53,7 +53,7 @@ const Navbar = () => {
 						<div className="flex flex-col space-y-4">
 							<Link href={"/"}>Home</Link>
 							<Link href={"/sectors"}>Sektörler</Link>
-							<Link href={"/"}>Teknolojiler</Link>
+							<Link href={"/technologies"}>Teknolojiler</Link>
 							<Link href={"/contact"}>İletişim</Link>
 						</div>
 					</div>
