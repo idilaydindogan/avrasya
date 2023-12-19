@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 			<body className={montserrat.className}>
 				<div className="min-h-screen w-full flex flex-col justify-between">
 					<Navbar />
-					<div className="h-screen w-full flex flex-col justify-start">
+					<div className="min-h-screen md:h-full w-full flex flex-col justify-start">
 						{children}
 					</div>
 					<Footer />
